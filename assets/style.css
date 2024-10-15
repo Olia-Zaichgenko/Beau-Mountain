@@ -140,6 +140,7 @@ nav .row{
     position: absolute;
     z-index: -1;
     top: 0;
+    width: 100%;
 }
 .play-button{
     display: flex;
@@ -200,8 +201,8 @@ nav .row{
 }
 
 /* section today-in-BM */
-.today-in-BM{
-    margin-top: 264px;
+.today-in-BM {
+    margin: 264px 0 100px 0;
 }
 .title-hours .title h2{
     font-size: 72px;
@@ -244,8 +245,8 @@ nav .row{
 .hourse h6{
     color: #16F1FF;
 }
-.hourse .arrow{
-    margin: 60px 0 60px 16px;
+.hourse .arrow {
+    margin: 5px 0 5px  16px;
 }
 .content-map .bg{
     padding: 16px 35px;
@@ -276,7 +277,7 @@ nav .row{
  /* section-about */
  .section-about{
     background: url(./img/about.png);
-    padding-top: 185px;
+    padding: 185px 0;
  }
 .section-about .flying-card {
     font-size: 20px;
@@ -406,7 +407,69 @@ footer .block+.block{
 }
 
 
-/* адаптив для 1024 */
-@media(max-width: 1024){
-
+/* адаптив для 1600 */
+@media (max-width: 1600px) {
+    .container{
+        width: 1400px;
+    }
+    h1 {
+        font-size: 125px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    nav .row {
+        margin: 30px 0;
+    }
+    .main-header {
+        margin-top: 40px;
+    }
+    .play-button {
+        margin: 0 630px;
+    }
+    .play-button .circle2 {
+        padding: 20px;
+    }
+    .play-button .circle1{
+        padding: 20px;
+    }
+    .video {
+        margin-left: 100px;
+    }
+    .video .image {
+        margin-right: 30px;
+    }
+    .title-hours .title h2 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .route-map{
+        width: 100%;
+        height: 100%;
+    }
+    .route-map img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-map .content p {
+        width: 700px;
+    }
+    .title-hours {
+        margin-bottom: 100px;
+    }
+    .section-about {
+        padding: 185px 0 0 0;
+    }
+    .section-entrance-ticket .container {
+        margin-top: 250px;
+        padding: 70px 900px 78px 70px;
+    }
+    footer .block+.block {
+        margin-left: 200px;
+    }
+    footer .menu{
+        width: 30%;
+    }
 }
