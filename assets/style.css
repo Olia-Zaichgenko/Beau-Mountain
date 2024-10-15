@@ -527,3 +527,55 @@ footer .block+.block{
         width: 50%;
     }
 }
+
+@media (max-width: 1367px) {
+    h1 {
+        font-size: 95px;
+    }
+    h2{
+        font-size: 40px;
+        line-height: 20px;
+    }
+    .play-button .circle2 {
+        padding: 15px;
+    }
+    .play-button .circle1 {
+        padding: 15px;
+    }
+    .video .image .button {
+        margin: 32px 0 140px 32px;
+    }
+    .video .image {
+        width: 40%;
+    }
+    .video .image .title {
+        padding: 10px 0;;
+    }
+    .video h2{
+        line-height: 60px;
+    }
+    .blog .button {
+        margin: 15px;
+    }
+    .video-and-blog{
+        margin-top: 30px;
+    }
+    .title-hours .title h2 {
+        font-size: 55px;
+    }
+    .content-map .bg {
+        padding: 5px 35px;
+    }
+    .content-map .header{
+        margin-bottom: 10px;
+    }
+    .section-about {
+        padding: 185px 0 100px 0;
+    }
+    footer .bottom .about p {
+        margin: 0 0 40px 0;
+    }
+    footer .line {
+        margin: 40px 0;
+    }
+}
