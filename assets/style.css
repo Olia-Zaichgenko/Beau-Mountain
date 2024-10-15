@@ -1,0 +1,412 @@
+/* Главные настройки */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #020E20;
+    background-image: linear-gradient(199.57deg, #16A3F3 1.55%, rgba(86, 163, 204, 0) 16.77%);
+    background-image: url(./img/fon.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+.container{
+    margin: 0 auto;
+    width: 1590px;
+}
+.space-between{
+    justify-content: space-between;
+}
+.ai-center{
+    align-items: center;
+}
+.jc-center{
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 156px;
+    font-weight: 900;
+    line-height: 156px;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin: 0;
+}
+h2{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    line-height: 64px;
+    margin: 0;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin: 0;
+}
+h4{
+    font-size: 32px;
+    margin: 0;
+}
+h5{
+    font-size: 32px;
+    margin: 0;
+}
+h6{
+    font-family: 'Cabinet Grotesk';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.76px;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 32px;
+}
+/* header */
+nav .row{
+    margin: 40px 0;
+    display: flex;
+}
+.logo{
+    display: flex;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.logo h5{
+    margin: 0 0 0 8px;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 24px;
+}
+.menu li+li{
+    margin-left: 48px;
+}
+.menu ul{
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    transition: 0.2s ease-in;
+}
+.menu a:hover{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: dotted;
+    text-decoration:underline;
+}
+.Youtube{
+    display: flex;
+    background-color: #00000066;
+    padding: 8px 0 8px 16px;
+    border-radius: 12px;
+}
+.Youtube h6{
+    margin: 0 16px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.line{
+    border: 1px solid;
+}
+.main-header{
+    position: relative;
+    z-index: -5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.main-img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.play-button{
+    display: flex;
+    margin: 0 727px;
+    margin-top: 25px;
+}
+.play-button .circle2{
+    padding: 23px;
+    border-radius: 100px;
+    background-color: #00000099;
+}
+.play-button .circle1{
+    padding: 32px;
+    border-radius: 100px;
+    background-color: #FFFFFF66;
+}
+.video{
+    display: flex;
+    align-items: end;
+    margin-left: 164px;
+}
+.video .image{
+    background: url(./img/video-img.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    width: 304px;
+    margin-right: 48px;
+}
+.video .image .button{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin: 32px 0 210px 32px;
+}
+.video .image .title{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    backdrop-filter: blur(24px);
+    background: #00000033;
+}
+.video .text h5{
+    font-weight: 500;
+    font-family: 'Inter';
+    color: #16F1FF;
+}
+.video .text{
+    width: 507px;
+}
+.blog{
+    background: #00000033;
+    backdrop-filter: blur(32px);
+    height: 243px;
+}
+.blog .button{
+    margin: 32px;
+}
+.arrow{
+    margin: 20px 0 20px 16px;
+}
+
+/* section today-in-BM */
+.today-in-BM{
+    margin-top: 264px;
+}
+.title-hours .title h2{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+.title-hours .title h5{
+    color: #FFFFFF99;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 38.73px;
+    margin-right: 40px;
+}
+.title-hours .title img{
+    margin-right: 8px;
+}
+.hourse{
+    background: #00000033;
+    backdrop-filter: blur(32px);
+}
+.container-hourse{
+    margin:24px 48px;;
+}
+.title-hours{
+    margin-bottom: 204px;
+}
+.hourse .header{
+    background-color: #11327B;
+    padding: 24px 107px 24px 48px;
+}
+.hourse p{
+    color: #FFFFFFB2;
+}
+.hourse .line{
+    color: #FFFFFF1A;
+}
+.hourse .block{
+    margin: 24px 0;
+}
+.hourse h6{
+    color: #16F1FF;
+}
+.hourse .arrow{
+    margin: 60px 0 60px 16px;
+}
+.content-map .bg{
+    padding: 16px 35px;
+    background-color: #2AEF84;
+    border-radius: 100px;
+    color: #020E20;
+    margin-right: 24px;
+}
+.content-map .weather{
+    margin-bottom: 64px;
+}
+.content-map .weat img{
+    margin-right: 12px;
+}
+.day+.day{
+    margin-left: 80px;
+}
+.day h5{
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.content-map .content{
+    margin-right: 143px;
+}
+
+
+ /* section-about */
+ .section-about{
+    background: url(./img/about.png);
+    padding-top: 185px;
+ }
+.section-about .flying-card {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    line-height: 28px;
+}
+.flying-card{
+    padding: 15px;
+    background: #FFFFFF26;
+    border-radius: 16px;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(32px);
+}
+.f-card2{
+    padding: 24px;
+}
+.section-about .f-card1 p{
+    margin: 0 16px;
+}
+.f-card2{
+    margin: 0 273px 0 174px;
+}
+.f-card2 .weather img{
+    width: 24px;
+    height: 24px;
+}
+.f-card2 .time{
+    background-color: #11327B;
+    padding: 5px;
+    border-radius: 8px;
+}
+.f-card2 .weather img{
+    margin-left: 76px;
+}
+.f-card2 h5{
+    font-family: 'Inter';
+    font-weight: 500;
+}
+.f-card2 .str{
+    margin: 16px 0;
+}
+.title h5{
+    font-weight: 500;
+    font-family: 'Cabinet Grotesk';
+    color: #FFFFFF99;
+}
+.title h2{
+    font-size: 72px;
+    line-height: 84px;
+}
+.about p{
+    margin: 32px 0;
+}
+.about h6{
+    color: #16F1FF;
+}
+
+
+/* section-entrance-ticket */
+.section-entrance-ticket .container{
+    position: relative;
+}
+.section-entrance-ticket .ticket{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.section-entrance-ticket .icon{
+    padding: 8px 8px 2px 8px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.section-entrance-ticket .buy{
+    padding: 8px;
+    width: 50%;
+    background: #00000066;
+    backdrop-filter: blur(32px);
+    border-radius: 12px;
+}
+.section-entrance-ticket .buy h6{
+    margin: 0 16px;
+}
+.section-entrance-ticket .container{
+    background-color: #06516E;
+    margin-top: 309px;
+    padding: 105px 1102px 78px 105px;
+}
+.section-entrance-ticket .text{
+    margin: 12px 0 48px 0;
+}
+
+
+
+/* footer */
+footer{
+    margin-top: 208px;
+}
+
+footer .about p{
+    font-weight: 300;
+    color: #A4AAC1;
+}
+footer .bottom .about p{
+    margin: 0 0 80px 0;
+}
+footer .menu p{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Poppins';
+}
+footer .menu a{
+    color: #A4AAC1;
+}
+footer .line{
+    color: #A4AAC1;
+}
+.social img+img{
+    margin-left: 50px;
+}
+footer .line{
+    margin: 68px 0 48px 0;
+}
+footer .block+.block{
+    margin-left: 254px;
+}
+
+
+/* адаптив для 1024 */
+@media(max-width: 1024){
+
+}
