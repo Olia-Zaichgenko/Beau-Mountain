@@ -473,3 +473,57 @@ footer .block+.block{
         width: 30%;
     }
 }
+
+@media (max-width: 1440px) {
+    .container{
+        width: 1200px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    h5 {
+        font-size: 27px;
+    }
+    .play-button {
+        margin: 0 540px;
+    }
+    .video .image .button {
+        margin: 32px 0 170px 32px;
+    }
+    .arrow {
+        margin: 10px 0 10px 16px;
+    }
+    .video {
+        margin: 0 100px 0 120px;
+    }
+    .blog .tent{
+        width: 100%;
+    }
+    .video .text {
+        width: 400px;
+    }
+    .content-map .content p {
+        width: 500px;
+    }
+    .title-hours {
+        margin-bottom: 180px;
+    }
+    .f-card2 {
+        margin: 0 100px 0 100px;
+    }
+    .section-about {
+        padding: 185px 0 100px 0;
+    }
+    .title h2 {
+        font-size: 65px;
+    }
+    .section-entrance-ticket .container {
+        padding: 40px 800px 78px 40px;
+    }
+    .section-entrance-ticket .buy {
+        width: 60%;
+    }
+    footer .menu {
+        width: 50%;
+    }
+}
